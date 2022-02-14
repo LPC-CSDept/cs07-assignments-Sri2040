@@ -1,0 +1,14 @@
+x = int(input("enter x value: "))
+y = int(input("enter y value: "))
+
+if (x > 0 and y > 0):
+    print ((x, y),("is in quadrant 1"))
+
+elif (x < 0 and y > 0):
+    print ((x, y), ("is in quadrant 2"))
+
+elif (x < 0 and y < 0):
+    print ((x, y), ("is in quadrant 3"))
+    
+elif (x > 0 and y < 0):
+    print ((x, y), ("is in quadrant 4"))
