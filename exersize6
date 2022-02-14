@@ -26,3 +26,20 @@ else:
             print ("from least to greatest", (num3, num1, num2))
     else:
        print ("from least to greatest", (num1, num2, num3))
+       
+       
+       (base) srishailansridharan@Srishailans-MacBook-Pro cs07-assignments-Sri2040 % /usr/bin/python3 "/Users/srishailansridharan/python/Practice and stuff/exersize8"
+from least to greatest (9, 30, 80)
+(base) srishailansridharan@Srishailans-MacBook-Pro cs07-assignments-Sri2040 % /usr/bin/python3 "/Users/srishailansridharan/python/Practice and stuff/exersize8"
+Given random values:
+Value 1: 22
+Value 2: 56
+Value 3: 20
+from least to greatest (20, 22, 56)
+(base) srishailansridharan@Srishailans-MacBook-Pro cs07-assignments-Sri2040 % /usr/bin/python3 "/Users/srishailansridharan/python/Practice and stuff/exersize8"
+Given random values:
+Value 1: 48
+Value 2: 25
+Value 3: 69
+from least to greatest (25, 48, 69)
+(base) srishailansridharan@Srishailans-MacBook-Pro cs07-assignments-Sri2040 % 
