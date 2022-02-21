@@ -1,0 +1,15 @@
+import random
+
+while True:
+    
+    randnum = random.randint(1,100)
+   
+    print (randnum, end=' ')    
+    if randnum % 2 == 0:
+        break
+    else:
+        print (randnum, end=' ')
+        continue
+
+
+

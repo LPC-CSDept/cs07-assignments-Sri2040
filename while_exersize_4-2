@@ -1,0 +1,13 @@
+import random
+num = random.randint(1,100)
+sum = num
+
+while(True):
+    if(sum >= 100):
+        break
+    print(sum, num)
+    num = random.randint(1,100)
+    sum += num
+print(sum, num)
+
+    

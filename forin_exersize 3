@@ -1,0 +1,15 @@
+sum = 0
+anothernum = True
+
+while anothernum == True:
+    number = int(input("Enter Number: "))
+    sum = sum + number
+
+    answer = input("Add Another Number? (Y/N): ")
+    if answer == ("Y"):
+        anothernum = True
+    else:
+        anothernum = False
+
+print("Here is your sum: ", sum)
+        
