@@ -1,0 +1,6 @@
+string = input("please enter a string: ")
+
+isspace = lambda c : c == " "
+
+print (isspace("l o l"))
+

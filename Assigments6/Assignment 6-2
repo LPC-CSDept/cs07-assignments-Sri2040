@@ -1,0 +1,10 @@
+string = input("Enter string: ")
+
+def stripSpace(str):
+    ans = " "
+    for i in str:
+        if(not i.islower()):
+            ans+=i
+    return ans
+
+print(stripSpace(string))

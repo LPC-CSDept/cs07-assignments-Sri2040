@@ -1,0 +1,13 @@
+string = input("please enter a string: ")
+
+isspace = lambda c : c == " "
+
+def getalnum(msg):
+    for i in msg:
+        if (not isspace(i)):
+            yield i
+
+gen = getalnum(string)
+print ("Value obtained from generator function are:")
+for element in gen:
+    print (element, end="")
